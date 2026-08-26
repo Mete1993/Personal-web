@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="background.html">Background Information</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="media.html">Media</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div class="container">
+            <section class="intro">
+                <h1>Contact Information</h1>
+                <p>Get in touch with  me through various  methods</p>
+            </section>
+            <div class="contact-form">
+                <h3>Send a Massage</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Massage</label>
+                        <textarea id="message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Details</h3>
+                <p>Feel free to reach out to me through any of the following methods</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><img src="IMG/gmail.png" alt="email" width="29"></div>
+                        <div><strong>Email</strong><br>
+                            Metagesabebe@gmail.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><img src="IMG/telephone.png" alt="phone" width="29"></div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +251993373343
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Personal Website.</p>
+            <div class="social-links">
+                <a href="https://t.me/trmgt" aria-label=""><img src="IMG/telegram.png" alt="telegram" width="29px"></a>
+                <a href="https://youtube.come/@mete-199" aria-label="Youtube"><img src="IMG/youtube.png" alt="Youtube" width="29px"></a>
+                <a href="https://api.whatsapp.com/send?phone=251993373343&text=" aria-label="whatsup"><img src="IMG/whatsapp.png" alt="whatsup" width="29px"></a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
